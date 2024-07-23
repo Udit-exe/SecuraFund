@@ -6,6 +6,8 @@
 
 SecuraFund is a basic fintech platform that allows users to manage their accounts and perform simple transactions such as deposits and withdrawals. The backend is built using Node.js and Hasura, while the frontend is developed using HTML, CSS, and JavaScript. This project demonstrates the integration of database setup, GraphQL API management, business logic implementation, and frontend development.
 
+**SecuraFund** combines "Secura" (derived from "secure") and "Fund" to emphasize the platform's focus on secure financial transactions and account management. The name reflects the project's commitment to providing a secure and reliable environment for managing funds, ensuring user confidence and trust in handling their financial operations.
+
 ### Features
 
 - **User Registration and Login**
@@ -40,10 +42,6 @@ SecuraFund is a basic fintech platform that allows users to manage their account
 - **Security**: Implementation of basic security measures.
 - **Code Quality**: Clarity, organization, and scalability of code.
 - **User Interface**: Usability and simplicity of the frontend.
-
-### Name Explanation
-
-**SecuraFund** combines "Secura" (derived from "secure") and "Fund" to emphasize the platform's focus on secure financial transactions and account management. The name reflects the project's commitment to providing a secure and reliable environment for managing funds, ensuring user confidence and trust in handling their financial operations.
 
 ---
 
