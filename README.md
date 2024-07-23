@@ -47,4 +47,4 @@ SecuraFund is a basic fintech platform that allows users to manage their account
 
 ---
 
-Feel free to use this description for your GitHub repository. It provides a clear overview of the project, its features, technology stack, setup instructions, deliverables, evaluation criteria, and the rationale behind the project's name.
+Feel free to contribute in the project.
