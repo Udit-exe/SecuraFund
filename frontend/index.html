@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SecuraFund</title>
+</head>
+<body>
+    <header>
+       <div class="navBar">
+            <div class="logo libre-baskerville">
+                SecuraFund
+            </div>
+            <div class="profile">
+                <i class="fa-solid fa-user"></i>
+            </div>
+       </div>
+    </header>
+    <div class="tagline">
+        SecuraFund: Effortless Transactions, Unmatched Security
+    </div>
+    <div class="container">
+        <h1>Account Transaction</h1>
+        <form class="transaction-form">
+            <div class="form-group">
+                <label for="accountNumber">Account Number</label>
+                <input type="text" id="accountNumber" name="accountNumber" placeholder="Enter your account number" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+            </div>
+            <div class="form-group">
+                <label for="transactionType">Transaction Type</label>
+                <select id="transactionType" name="transactionType" required>
+                    <option value="deposit">Deposit</option>
+                    <option value="withdraw">Withdraw</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
