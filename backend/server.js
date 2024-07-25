@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json());
 
 // Hasura GraphQL endpoint and admin secret
-const HASURA_ENDPOINT = 'https://your-hasura-instance/v1/graphql';
-const HASURA_ADMIN_SECRET = 'your-hasura-admin-secret';
+const HASURA_ENDPOINT = 'https://hasura-instance/v1/graphql';
+const HASURA_ADMIN_SECRET = 'hasura-admin-secret';
 
 // GraphQL query for inserting a transaction
 const INSERT_TRANSACTION_QUERY = `
