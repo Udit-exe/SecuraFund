@@ -29,20 +29,6 @@ SecuraFund is a basic fintech platform that allows users to manage their account
 3. **Backend Setup**: Install dependencies and run the Node.js server.
 4. **Frontend Setup**: Open the `index.html` file in your browser.
 
-### Deliverables
-
-- Complete source code for both backend and frontend.
-- Detailed setup instructions.
-- API documentation.
-- Design decisions and assumptions.
-
-### Evaluation Criteria
-
-- **Functionality**: How well the platform performs specified tasks.
-- **Security**: Implementation of basic security measures.
-- **Code Quality**: Clarity, organization, and scalability of code.
-- **User Interface**: Usability and simplicity of the frontend.
-
 ---
 
 Feel free to contribute in the project.
