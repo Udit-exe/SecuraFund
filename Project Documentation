@@ -1,0 +1,99 @@
+### Setup Instructions
+
+#### Backend Setup
+1. Navigate to the `backend` directory:
+   ```sh
+   cd /path/to/SecuraFund-main/backend
+   ```
+
+2. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Set up and configure your PostgreSQL database as per the project requirements.
+
+4. Start the Node.js server:
+   ```sh
+   npm start
+   ```
+
+#### Hasura Setup
+1. Set up Hasura and connect it to your PostgreSQL database.
+2. Generate the GraphQL schema according to your project's needs.
+
+#### Frontend Setup
+1. Navigate to the `frontend` directory:
+   ```sh
+   cd /path/to/SecuraFund-main/frontend
+   ```
+
+2. Open the `index.html` file in your browser:
+   ```sh
+   open index.html
+   ```
+<hr>
+
+### API Documentation
+
+#### User Registration
+- **Endpoint**: `/api/register`
+- **Method**: POST
+- **Request Body**:
+  ```json
+  {
+    "username": "string",
+    "password": "string"
+  }
+  ```
+- **Response**:
+  ```json
+  {
+    "message": "User registered successfully."
+  }
+  ```
+
+#### User Login
+- **Endpoint**: `/api/login`
+- **Method**: POST
+- **Request Body**:
+  ```json
+  {
+    "username": "string",
+    "password": "string"
+  }
+  ```
+- **Response**:
+  ```json
+  {
+    "token": "JWT token"
+  }
+  ```
+
+#### Account Management
+- **Endpoint**: `/api/account`
+- **Method**: GET
+- **Headers**:
+  ```json
+  {
+    "Authorization": "Bearer <token>"
+  }
+  ```
+- **Response**:
+  ```json
+  {
+    "accountId": "string",
+    "balance": "number"
+  }
+  ```
+
+<hr>
+
+### Design Decisions and Assumptions
+
+1. **Database Choice**: PostgreSQL was chosen for its robustness and support for complex queries.
+2. **API Management**: Hasura was selected to manage GraphQL APIs for its ease of integration with PostgreSQL and real-time capabilities.
+3. **Backend Framework**: Node.js with Express was used to handle server-side logic, given its non-blocking I/O and popularity in the development community.
+4. **Frontend Design**: A simple, user-friendly interface was created using HTML, CSS, and JavaScript to ensure ease of use and accessibility.
+5. **Security**: JWT tokens are used for user authentication to ensure secure access to the API endpoints.
+6. **Assumptions**: It is assumed that users will have a basic understanding of navigating and using web applications, and that the environment is set up with the necessary dependencies and configurations as per the setup instructions.
