@@ -98,7 +98,8 @@
 5. **Security**: JWT tokens are used for user authentication to ensure secure access to the API endpoints.
 6. **Assumptions**: It is assumed that users will have a basic understanding of navigating and using web applications, and that the environment is set up with the necessary dependencies and configurations as per the setup instructions.
 
+<hr>
 
+#### I thought of doing more but..........
 
-####I thought of doing more but..........
 ![Github Sc](https://github.com/Udit-exe/SecuraFund/blob/main/1.PNG?raw=true)
