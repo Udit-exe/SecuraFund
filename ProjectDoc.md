@@ -101,5 +101,4 @@
 
 
 #####I thought of doing more but..........
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
+![Github Sc](https://github.com/Udit-exe/SecuraFund/blob/main/1.PNG?raw=true)
