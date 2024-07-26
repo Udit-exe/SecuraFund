@@ -100,5 +100,5 @@
 
 
 
-#####I thought of doing more but..........
+####I thought of doing more but..........
 ![Github Sc](https://github.com/Udit-exe/SecuraFund/blob/main/1.PNG?raw=true)
