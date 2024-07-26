@@ -1,3 +1,4 @@
+//hasura : wiyat22838@reebsd.com
 // server.js
 
 const express = require('express');
@@ -11,8 +12,8 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json());
 
 // Hasura GraphQL endpoint and admin secret
-const HASURA_ENDPOINT = 'https://hasura-instance/v1/graphql';
-const HASURA_ADMIN_SECRET = 'hasura-admin-secret';
+const HASURA_ENDPOINT = 'https://intent-killdeer-68.hasura.app/v1/graphql';
+const HASURA_ADMIN_SECRET = '7HtvTUaM3GJ83THjNHbOmpiFxJwjfluS7VzDgGiJM7bqlTcxSlC5YZSI1U0UAEY1';
 
 // GraphQL query for inserting a transaction
 const INSERT_TRANSACTION_QUERY = `
