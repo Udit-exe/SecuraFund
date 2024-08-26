@@ -1,7 +1,3 @@
-### GitHub Project Description
-
----
-
 ## SecuraFund
 
 SecuraFund is a basic fintech platform that allows users to manage their accounts and perform simple transactions such as deposits and withdrawals. The backend is built using Node.js and Hasura, while the frontend is developed using HTML, CSS, and JavaScript. This project demonstrates the integration of database setup, GraphQL API management, business logic implementation, and frontend development.
